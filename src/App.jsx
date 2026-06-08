@@ -11,7 +11,7 @@ Chart.defaults.color = 'rgba(255,255,255,0.5)';
 Chart.defaults.font.family = "'Inter', sans-serif";
 
 function HumanModel() {
-  const obj = useLoader(OBJLoader, '/human.obj'); 
+  const obj = useLoader(OBJLoader, 'human.obj');
   const modelRef = useRef();
   
   useFrame(() => { 
