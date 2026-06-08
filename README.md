@@ -1,7 +1,3 @@
-Hier ist eine kompakte `README.md`, die du direkt in dein Projektverzeichnis legen kannst.
-
----
-
 # Human 2.0: Digital Twin Interface
 
 Dieses Projekt ist ein interaktives **Video-Mock-up-Interface**, das für das Modul „Human Augmentation“ entwickelt wurde. Es dient als Prototyp für eine kognitive Entscheidungsunterstützung in einer onkologischen Arztpraxis.
