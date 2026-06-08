@@ -11,7 +11,7 @@ Chart.defaults.color = 'rgba(255,255,255,0.5)';
 Chart.defaults.font.family = "'Inter', sans-serif";
 
 function HumanModel() {
-  const obj = useLoader(OBJLoader, 'human.obj');
+  const obj = useLoader(OBJLoader, '/digital-twin/human.obj');
   const modelRef = useRef();
   
   useFrame(() => { 
@@ -180,12 +180,6 @@ export default function App() {
   return (
     <>
       <div className="hex-bg"></div>
-
-      <button 
-        className="secret-director-btn" 
-        onClick={() => setSystemCrashed(!systemCrashed)}
-        title="Regie-Trigger: Crash"
-      />
 
       {systemCrashed && (
         <div className="realistic-crash-overlay">
